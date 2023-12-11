@@ -1,0 +1,1 @@
+{"mappings":"AAEA","sources":["src/index.scss"],"sourcesContent":["$color: rgb(87, 206, 87);\r\n\r\n.jmd-database {\r\n  color: $color;\r\n}"],"names":[],"version":3,"file":"index.ce1d6491.css.map","sourceRoot":"/__parcel_source_root/"}
