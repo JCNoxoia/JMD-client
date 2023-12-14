@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"2nMpF":[function(require,module,exports) {
+})({"7brdt":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -574,9 +574,9 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"4TecW":[function(require,module,exports) {
-var Refresh = require("ec4f6e2ab2d030f2");
-var ErrorOverlay = require("f0daf4df4a08b51d");
+},{}],"ew62F":[function(require,module,exports) {
+var Refresh = require("f633cc89a8bc5c5a");
+var ErrorOverlay = require("c869629f6f210078");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -595,11 +595,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"ec4f6e2ab2d030f2":"84ukY","f0daf4df4a08b51d":"a3pbd"}],"84ukY":[function(require,module,exports) {
+},{"f633cc89a8bc5c5a":"2NsO1","c869629f6f210078":"4cui5"}],"2NsO1":[function(require,module,exports) {
 "use strict";
-module.exports = require("fdc329593f717a50");
+module.exports = require("ce0ad5c24ce1e9c4");
 
-},{"fdc329593f717a50":"8e7Wc"}],"8e7Wc":[function(require,module,exports) {
+},{"ce0ad5c24ce1e9c4":"9MigK"}],"9MigK":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -1059,8 +1059,8 @@ module.exports = require("fdc329593f717a50");
     exports.setSignature = setSignature;
 })();
 
-},{}],"a3pbd":[function(require,module,exports) {
-var process = require("9b91a09698243cf");
+},{}],"4cui5":[function(require,module,exports) {
+var process = require("8eebd8f3ddcd1944");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2790,7 +2790,7 @@ var process = require("9b91a09698243cf");
     ]);
 });
 
-},{"9b91a09698243cf":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"8eebd8f3ddcd1944":"d5jf4"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2969,7 +2969,7 @@ $RefreshReg$(_c, "JMDApplication");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/main-view/main-view":"4gflv","./index.scss":"lJZlQ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"8qUjj"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/main-view/main-view":"4gflv","./index.scss":"lJZlQ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"coTES"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27241,7 +27241,7 @@ $RefreshReg$(_c, "MainView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","@parcel/transformer-js/src/esmodule-helpers.js":"dXKKv","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"8qUjj"}],"bwuIu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","@parcel/transformer-js/src/esmodule-helpers.js":"imusJ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"coTES"}],"bwuIu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$67b2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27273,7 +27273,7 @@ $RefreshReg$(_c, "MovieCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"dXKKv","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"8qUjj"}],"dXKKv":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"imusJ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"coTES"}],"imusJ":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27303,9 +27303,9 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"8qUjj":[function(require,module,exports) {
+},{}],"coTES":[function(require,module,exports) {
 "use strict";
-var Refresh = require("9b5bd90f31d5e1f1");
+var Refresh = require("8a6be00b593f0a52");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -27441,7 +27441,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"9b5bd90f31d5e1f1":"84ukY"}],"ggaUx":[function(require,module,exports) {
+},{"8a6be00b593f0a52":"2NsO1"}],"ggaUx":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$e9f6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27522,7 +27522,7 @@ const MovieView = ({ movie, onBackClick })=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                        children: book.genre
+                        children: movie.genre
                     }, void 0, false, {
                         fileName: "src/components/movie-view/movie-view.jsx",
                         lineNumber: 17,
@@ -27558,6 +27558,6 @@ $RefreshReg$(_c, "MovieView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"dXKKv","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"8qUjj"}],"lJZlQ":[function() {},{}]},["2nMpF","4TecW","d8Dch"], "d8Dch", "parcelRequire45f5")
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"imusJ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"coTES"}],"lJZlQ":[function() {},{}]},["7brdt","ew62F","d8Dch"], "d8Dch", "parcelRequire45f5")
 
 //# sourceMappingURL=index.b4b6dfad.js.map
