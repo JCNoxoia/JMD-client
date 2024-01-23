@@ -10,13 +10,13 @@ export const SignupView = () => {
         event.preventDefault();
 
         const data = {
-            Username: username,
-            Password: password,
-            Email: email,
-            Birthday: birthday
+            username: username,
+            password: password,
+            email: email,
+            dob: birthday
         };
 
-        fetch("https://jmd-movie-database-eb9032c631f2.herokuapp.com/", {
+        fetch("https://jmd-movie-database-eb9032c631f2.herokuapp.com/users", {
             method: "POST",
             body: JSON.stringify(data),
             headers: {
@@ -40,7 +40,8 @@ export const SignupView = () => {
                     type="text"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
-                    requiredminLength="3"
+                    required
+                    minLength="3"
                 />
             </label>
             <label>
@@ -62,6 +63,7 @@ export const SignupView = () => {
                 />
             </label>
             <label>
+                DoB
                 <input
                     type="date"
                     value={birthday}
