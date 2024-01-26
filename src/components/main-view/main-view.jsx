@@ -1,8 +1,10 @@
+import "./main-view.scss";
 import { useState, useEffect } from "react";
 import { MovieCard } from "../movie-card/movie-card";
 import { MovieView } from "../movie-view/movie-view";
 import { LoginView } from "../login-view/login-view";
 import { SignupView } from "../signup-view/signup-view";
+import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -70,6 +72,18 @@ export const MainView = () => {
               />
             </Col>
           ))}
+          <Button
+            bsClass="custom-btn"
+            className="logout-button"
+            md={2}
+            onClick={() => {
+              setUser(null);
+              setToken(null);
+              localStorage.clear();
+            }}
+          >
+            Logout
+          </Button>
         </>
       )}
     </Row>

@@ -1,3 +1,11 @@
+.card-body {
+  background-color: #f5f5f5;
+}
+
+div {
+  background-color: #f5f5f5;
+}
+
 .back-button {
   color: #f5f5f5;
   background-color: #1e90ff;
@@ -8,6 +16,11 @@
 
 img {
   width: 100%;
+}
+
+.logout-button {
+  color: #f5f5f5;
+  background-color: #1e90ff;
 }
 
 :root, [data-bs-theme="light"] {
@@ -13218,4 +13231,4 @@ textarea.form-control-lg {
   color: #57ce57;
 }
 
-/*# sourceMappingURL=index.5f1df611.css.map */
+/*# sourceMappingURL=index.e3f97e84.css.map */

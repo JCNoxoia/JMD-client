@@ -1,3 +1,4 @@
+import "./signup-view.scss";
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
@@ -81,7 +82,7 @@ export const SignupView = () => {
                     required
                 />
                 </Form.Group>
-            <Button variant="primary" type="submit">Submit</Button>
+            <Button bsClass="custom-btn" variant="primary" type="submit">Submit</Button>
         </Form>
     );
 };
