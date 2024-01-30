@@ -27224,6 +27224,7 @@ const MainView = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _rowDefault.default), {
         className: "justify-content-md-center",
         children: !user ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _colDefault.default), {
+            className: "custom",
             md: 5,
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _loginView.LoginView), {
@@ -27285,7 +27286,7 @@ const MainView = ()=>{
                         columnNumber: 13
                     }, undefined)),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDefault.default), {
-                    bsClass: "custom-btn",
+                    variant: "custom",
                     className: "logout-button",
                     md: 2,
                     onClick: ()=>{
@@ -30908,8 +30909,7 @@ const LoginView = ({ onLoggedIn })=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDefault.default), {
-                bsClass: "custom-btn",
-                variant: "primary",
+                variant: "custom",
                 type: "submit",
                 children: "Submit"
             }, void 0, false, {
@@ -31088,8 +31088,7 @@ const SignupView = ()=>{
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDefault.default), {
-                bsClass: "custom-btn",
-                variant: "primary",
+                variant: "custom",
                 type: "submit",
                 children: "Submit"
             }, void 0, false, {

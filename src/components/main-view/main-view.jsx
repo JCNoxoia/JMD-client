@@ -45,7 +45,7 @@ export const MainView = () => {
   return (
     <Row className="justify-content-md-center">
       {!user ? (
-        <Col md={5}>
+        <Col className="custom" md={5}>
           <LoginView onLoggedIn={(user) => setUser(user)} />
           or
           <SignupView />
@@ -73,7 +73,7 @@ export const MainView = () => {
             </Col>
           ))}
           <Button
-            bsClass="custom-btn"
+            variant="custom"
             className="logout-button"
             md={2}
             onClick={() => {
