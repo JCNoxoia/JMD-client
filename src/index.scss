@@ -2,15 +2,8 @@ $primary: rgb(33, 152, 231);
 $body-bg: rgb(255, 207, 117);
 
 @import '~bootstrap/scss/bootstrap.scss';
-
-$color: rgb(87, 206, 87);
-
-.jmd-database {
-  color: $color;
-}
-
-// .btn-custom {
-//   color: whitesmoke;
-//   background-color: dodgerblue;
-// }
-@import './components/main-view/main-view.scss'
+@import './components/main-view/main-view.scss';
+@import './components/login-view/login-view.scss';
+@import './components/movie-card/movie-card.scss';
+@import './components/movie-view/movie-view.scss';
+@import './components/signup-view/signup-view.scss';

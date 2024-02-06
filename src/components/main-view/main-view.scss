@@ -1,8 +1,32 @@
+.row {
+    margin-top: 100px;
+}
+
+.card {
+    border: solid rgb(39, 218, 149) 5px;
+}
+
+.card:hover {
+    border: solid rgb(39, 218, 149) 5px;
+    filter: brightness(1.2);
+}
+
 .btn-custom {
     color: whitesmoke;
-    background-color: rgb(94, 255, 30);
+    background-color: dodgerblue;
+    width: 150px;
+    margin: 5px;
+}
+
+.btn-custom:hover {
+    color: whitesmoke;
+    background-color: rgb(28, 123, 218);
 }
 
 .custom {
     background-color: whitesmoke;
+}
+
+.navbar {
+    justify-content: right;
 }
