@@ -1,5 +1,9 @@
-$color: rgb(87, 206, 87);
+$primary: rgb(33, 152, 231);
+$body-bg: rgb(255, 207, 117);
 
-.jmd-database {
-  color: $color;
-}
+@import '~bootstrap/scss/bootstrap.scss';
+@import './components/main-view/main-view.scss';
+@import './components/login-view/login-view.scss';
+@import './components/movie-card/movie-card.scss';
+@import './components/movie-view/movie-view.scss';
+@import './components/signup-view/signup-view.scss';
